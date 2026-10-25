@@ -1,0 +1,15 @@
+# 密钥与本地配置（绝不提交）
+.env
+.env.*
+!.env.example
+*.local
+mcp.local.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 依赖与构建产物（按需补充）
+node_modules/
+__pycache__/
+*.log
